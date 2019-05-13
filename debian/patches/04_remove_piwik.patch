@@ -1,10 +1,10 @@
 Description: remove piwik scripts.
 Author: Anton Gladky <gladk@debian.org>
 Last-Update: 2015-06-16
-Index: eigen-eigen-b3f3d4950030/doc/eigendoxy_footer.html.in
+Index: eigen-eigen-323c052e1731/doc/eigendoxy_footer.html.in
 ===================================================================
---- eigen-eigen-b3f3d4950030.orig/doc/eigendoxy_footer.html.in
-+++ eigen-eigen-b3f3d4950030/doc/eigendoxy_footer.html.in
+--- eigen-eigen-323c052e1731.orig/doc/eigendoxy_footer.html.in
++++ eigen-eigen-323c052e1731/doc/eigendoxy_footer.html.in
 @@ -17,19 +17,6 @@ $generatedby &#160;<a href="http://www.d
  </small></address>
  <!--END !GENERATE_TREEVIEW-->

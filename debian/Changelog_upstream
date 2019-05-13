@@ -1,11 +1,43 @@
 Changelog has been taken from
   http://eigen.tuxfamily.org/index.php?title=ChangeLog
 
+== Eigen 3.3.7 ==
+
+Released on December 11, 2018.
+
+Changes since 3.3.6:
+
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1643 Bug 1643]: Fix compilation with GCC>=6 and compiler optimization turned off.
+
+== Eigen 3.3.6 ==
+
+Released on December 10, 2018.
+
+Changes since 3.3.5:
+
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1617 Bug 1617]: Fix triangular solve crashing for empty matrix.
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=785 Bug 785]: Make dense Cholesky decomposition work for empty matrices.
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1634 Bug 1634]: Remove double copy in move-ctor of non movable Matrix/Array.
+* [https://bitbucket.org/eigen/eigen/commits/588e1eb34eff Changeset 588e1eb34eff]: Workaround weird MSVC bug.
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1637 Bug 1637] Workaround performance regression in matrix products with gcc>=6 and clang>=6.0.
+* [https://bitbucket.org/eigen/eigen/commits/bf0f100339c1 Changeset bf0f100339c1]: Fix some implicit 0 to Scalar conversions.
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1605 Bug 1605]: Workaround ABI issue with vector types (aka __m128) versus scalar types (aka float).
+* [https://bitbucket.org/eigen/eigen/commits/d1421c479baa Changeset d1421c479baa]: Fix for gcc<4.6 regarding usage of #pragma GCC diagnostic push/pop.
+* [https://bitbucket.org/eigen/eigen/commits/c20b83b9d736 Changeset c20b83b9d736]: Fix conjugate-gradient for right-hand-sides with a very small magnitude.
+* [https://bitbucket.org/eigen/eigen/commits/281a877a3bf7 Changeset 281a877a3bf7]: Fix product of empty arrays (returned 0 instead of 1).
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1590 Bug 1590]: Fix collision with some system headers defining the macro FP32.
+* [http://eigen.tuxfamily.org/bz/show_bug.cgi?id=1584 Bug 1584]: Fix possible undefined behavior in random generation.
+* [https://bitbucket.org/eigen/eigen/commits/d632d18db8ca Changeset d632d18db8ca]: Fix fallback to BLAS for rankUpdate.
+* Fixes for NVCC 9.
+* Fix matrix-market IO.
+* Various fixes in the doc.
+* Various minor warning fixes/workarounds.
+
 == Eigen 3.3.5 ==
 
 Released on July 23, 2018.
 
-Changes since 3.3.4: 
+Changes since 3.3.4:
 
 * General bug fixes:
 ** Fix GeneralizedEigenSolver when requesting for eigenvalues only ([https://bitbucket.org/eigen/eigen/commits/0d15855abb30 0d15855abb30])

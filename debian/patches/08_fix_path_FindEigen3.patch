@@ -1,11 +1,11 @@
 Description: fix installation path for cmake-files
 Author: Anton Gladky <gladk@debian.org>
 Last-Update: 2015-12-18
-Index: eigen-eigen-b3f3d4950030/CMakeLists.txt
+Index: eigen-eigen-323c052e1731/CMakeLists.txt
 ===================================================================
---- eigen-eigen-b3f3d4950030.orig/CMakeLists.txt
-+++ eigen-eigen-b3f3d4950030/CMakeLists.txt
-@@ -377,7 +377,7 @@ else()
+--- eigen-eigen-323c052e1731.orig/CMakeLists.txt
++++ eigen-eigen-323c052e1731/CMakeLists.txt
+@@ -393,7 +393,7 @@ else()
        )
  endif()
  set(CMAKEPACKAGE_INSTALL_DIR

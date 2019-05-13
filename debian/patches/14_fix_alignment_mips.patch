@@ -4,10 +4,10 @@ Acked-By: Anton Gladky <gladk@debian.org>
 Bug-Debian: https://bugs.debian.org/858363
 Last-Update: 2017-05-19
 
-Index: eigen-eigen-b3f3d4950030/Eigen/src/Core/util/Macros.h
+Index: eigen-eigen-323c052e1731/Eigen/src/Core/util/Macros.h
 ===================================================================
---- eigen-eigen-b3f3d4950030.orig/Eigen/src/Core/util/Macros.h
-+++ eigen-eigen-b3f3d4950030/Eigen/src/Core/util/Macros.h
+--- eigen-eigen-323c052e1731.orig/Eigen/src/Core/util/Macros.h
++++ eigen-eigen-323c052e1731/Eigen/src/Core/util/Macros.h
 @@ -703,7 +703,7 @@ namespace Eigen {
    // certain common platform (compiler+architecture combinations) to avoid these problems.
    // Only static alignment is really problematic (relies on nonstandard compiler extensions),

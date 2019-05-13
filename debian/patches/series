@@ -6,4 +6,3 @@
 08_fix_path_FindEigen3.patch
 12_grammar_tweak.patch
 14_fix_alignment_mips.patch
-15_fix_wrong_type.patch

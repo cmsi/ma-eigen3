@@ -1,10 +1,10 @@
 Description: Remove build type check in cmake
 Author: Anton Gladky <gladk@debian.org>
 Last-Update: 2015-06-16
-Index: eigen-eigen-b3f3d4950030/CMakeLists.txt
+Index: eigen-eigen-323c052e1731/CMakeLists.txt
 ===================================================================
---- eigen-eigen-b3f3d4950030.orig/CMakeLists.txt
-+++ eigen-eigen-b3f3d4950030/CMakeLists.txt
+--- eigen-eigen-323c052e1731.orig/CMakeLists.txt
++++ eigen-eigen-323c052e1731/CMakeLists.txt
 @@ -20,12 +20,6 @@ if (NOT CMAKE_BUILD_TYPE)
  endif()
  
